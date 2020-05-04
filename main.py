@@ -2,7 +2,6 @@
 def main():
  #opens files
  IF_input = input('<<name of ss file>>') + '.ss'
- print("\033[H\033[J")
  print('the shadow script file', IF_input, 'has now be opened')
  IF = open(IF_input, "rt")
  OF = open("out.py", "wt")
@@ -16,6 +15,10 @@ def main():
 		 OF.write(line.replace('s.var-', ''))
 	 if 's.if-' in line:
 		 OF.write(line.replace('s.if-', 'if '))
+	 if 's.elif-' in line:
+		 OF.write(line.replace('s.elif-', 'elif '))
+	 if 's.else:' in line:
+		 OF.write(line.replace('s.else:', 'else:'))
 	 if 's.func-' in line:
 		 OF.write(line.replace('s.func-', 'def '))
 	 if 's.r.func-' in line:
