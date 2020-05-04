@@ -13,6 +13,7 @@ this is the if statments for operator
  s.if-operator == '-':
    s.os.clear
    s.show-(num1 - num2)
+   s.os.clear
    s.r.func-main()
  s.if-operator == '*':
   s.os.clear

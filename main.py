@@ -1,14 +1,11 @@
-import os
-import random
+
 def main():
  #opens files
  IF_input = input('<<name of ss file>>') + '.ss'
- os.system('clear')
+ print("\033[H\033[J")
  print('the shadow script file', IF_input, 'has now be opened')
  IF = open(IF_input, "rt")
  OF = open("out.py", "wt")
- OF.write('import os')
- OF.write('\n')
  #list of the "commands"
  clist = ['s.show','s.var-','s.if-','s.func-','s.r.func','s.class-','s.os.clear','s.while-','s.plib-']
  #changes words
@@ -26,7 +23,7 @@ def main():
 	 if 's.class-' in line:
 		 OF.write(line.replace('s.class-', 'class '))
 	 if 's.os.clear' in line:
-		 OF.write(line.replace('s.os.clear',"os.system('clear')"))
+		 OF.write(line.replace('s.os.clear','print("\033[H\033[J")'))
 	 if 's.while-' in line:
 		 OF.write(line.replace('s.while-','while '))
 	 if 's.plib-' in line:
