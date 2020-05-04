@@ -22,8 +22,6 @@ def main():
 		 OF.write(line.replace('s.r.func-', ''))
 	 if 's.class-' in line:
 		 OF.write(line.replace('s.class-', 'class '))
-	 if 's.os.clear' in line:
-		 OF.write(line.replace('s.os.clear','print("\033[H\033[J")'))
 	 if 's.while-' in line:
 		 OF.write(line.replace('s.while-','while '))
 	 if 's.plib-' in line:
