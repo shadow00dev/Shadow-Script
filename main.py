@@ -1,9 +1,10 @@
-
+import os
 def main():
  #opens files
+ directory = input('<<directory>>')
  IF_input = input('<<name of ss file>>') + '.ss'
  print('the shadow script file', IF_input, 'has now be opened')
- IF = open(IF_input, "rt")
+ IF = open(os.path.join(directory)+ IF_input, "rt")
  OF = open("out.py", "wt")
  #list of the "commands"
  clist = ['s.show','s.var-','s.if-','s.func-','s.r.func','s.class-','s.os.clear','s.while-','s.plib-']
