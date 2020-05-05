@@ -32,6 +32,9 @@ def main():
 		 OF.write(line.replace('s.plib-','import '))
 	 if 's.r.plib-' in line:
 		 OF.write(line[9:])
+	 if 's.for-' in line:
+		 OF.write(line.replace('s.for-','for '))
+
 
  #closes files
  IF.close()
