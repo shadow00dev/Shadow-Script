@@ -2,83 +2,100 @@ COMMANDS THAT SHADOW SCRIPT HAVE:
 
 1. s.show-()
 
-what is s.show-()? s.show-() can show variables,strings,numbers and more
+What is s.show-()? s.show-() can show variables,strings, numbers and more.
 
-example of s.show-() = s.show('hello world')
+Example: s.show-('hello world')
 
 2. s.var- 
 
-what is s.var-? s.var- is the way Shadow Script handels variables 
-example of s.var- = s.var-hi = 'hello world'
+What is s.var-? s.var- is the way Shadow Script handles variables. 
+
+Example: s.var-hi = 'hello world'
 
 3. s.if- 
 
-what is s.if-? s.if- is how Shadoe Script handles 
-if statements
+What is s.if-? s.if- is how Shadow Script handles 
+if statements.
 
-example of s.if- = s.if-hi == 'hello world': 
+Example: s.if-hi == 'hello world': 
 	              s.show('hi')
 
-3,4. s.elif- 
+3.5. s.elif- 
 
-what is s.elif-? s.elif- can be used for if statements
+What is s.elif-? s.elif- can be used for if statements.
 
-example of s.elif- = s.if-hi == 'hello world': 
+Example: s.if-hi == 'hello world': 
 	              s.show('hi')
 	              s.elif-hi == 'hello'
 	                s.show('hello.....')
 
-3,5. s.else:
+3.75. s.else:
 
-what is s.else:? s.else: can be used for if statements
+what is s.else:? s.else: can be used for if statements.
 
-example of s.else: = s.if-hi == 'hello world': 
+Example: s.if-hi == 'hello world': 
 	              s.show('hi')
 	              s.else:
 	                s.show('hello.....')
 
 4. s.func- 
 
-what is s.func-? s.func- is how functions are handeled
+What is s.func-? s.func- is how functions are handled.
 
-examlple of s.func- = s.func-main():
+Example: s.func-main():
 	                s.show('main')
 
 5. s.r.func-
 
-what is s.r.func-? s.r.func- is how you run the functions
+What is s.r.func-? s.r.func- is how you run functions.
 
-example of s.r.func- = s.r.func-main()
+Example: s.r.func-main()
 
 6. s.class- 
 
-what is s.class-? s.class is the way classes are made 
+What is s.class-? s.class is the way classes are made. 
 
-examples of s.class- = s.class-one():
+Examples: s.class-one():
                         s.show('hello!!')
 
 7. s.while-
 
-what is s.while-?  s.while- is the way while statements work 
+What is s.while-?  s.while- is the way while statements work. 
 
-example of s.while- = s.while-hi == 'hello world':
+Example: s.while-hi == 'hello world':
                         s.show-('huh')
 
 8. s.plib-
 
-what is s.plib-? s.plib- loads pythons libraries 
+What is s.plib-? s.plib- loads pythons libraries. 
 
-example of  s.plib- =  s.plib-math
+Example: s.plib-math
 
 9. s.r.plib- 
 
-what is s.r.plib-? s.r.plib runs the python library that you loaded
+What is s.r.plib-? s.r.plib runs the python library that you loaded.
 
-example of s.r.plib- = s.r.plib.math.fsum([1,1])
+Example: s.r.plib.math.fsum([1,1])
 
 10. s.for-
 
-what is s.for-? s.for- is how Shadow Script handles for statement
+What is s.for-? s.for- is how Shadow Script handles for statement.
 
-example of s.for- = s.for-i in 'hello':
+Example: s.for-i in 'hello':
                       s.show-('hi world')
+
+11. s.skip-
+
+What is s.skip-? s.skip- is how Shadow Script handles pass.
+
+Example: s.skip-
+
+12. s.return-
+
+What is s.return-? s.return- is how Shadow Script handles return.
+
+Example: s.func-HI():
+           s.var-var1 = 1
+	   s.show-(var1)
+	   s.return-var1
+

@@ -34,7 +34,10 @@ def main():
 		 OF.write(line[9:])
 	 if 's.for-' in line:
 		 OF.write(line.replace('s.for-','for '))
-
+	 if 's.skip-' in line:
+		 OF.write(line.replace('s.skip-','pass '))
+	 if 's.return-' in line:
+		 OF.write(line.replace('s.return-','return '))
 
  #closes files
  IF.close()

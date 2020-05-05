@@ -3,7 +3,11 @@ A new programing language made in python
 
 
 
+# Links
 
+github = https://github.com/twistcharlie/Shadow-Script
+
+wiki(aka docs) = https://github.com/twistcharlie/Shadow-Script/wiki
 
 
 # Credits
