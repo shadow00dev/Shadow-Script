@@ -8,9 +8,7 @@ s.func-main():
 
   s.while-play == True:
    s.if-guess == hidden:
-    s.show-("welldone")
-    s.var-hidden = random.randrange(1,201)
-    s.var-guess = int(input("<Guess the number>"))    
+    s.show-("welldone")   
    s.elif-guess < hidden:
     s.show-("to low")
     s.var-guess = int(input("<Guess the number>"))
