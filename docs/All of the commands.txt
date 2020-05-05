@@ -98,4 +98,3 @@ Example: s.func-HI():
            s.var-var1 = 1
 	   s.show-(var1)
 	   s.return-var1
-
