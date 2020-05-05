@@ -75,3 +75,10 @@ example of  s.plib- =  s.plib-math
 what is s.r.plib-? s.r.plib runs the python library that you loaded
 
 example of s.r.plib- = s.r.plib.math.fsum([1,1])
+
+10. s.for-
+
+what is s.for-? s.for- is how Shadow Script handles for statement
+
+example of s.for- = s.for-i in 'hello':
+                      s.show-('hi world')
