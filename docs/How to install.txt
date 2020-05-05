@@ -1,0 +1,11 @@
+HOW TO INSTALL SHADOW SCRIPT:
+
+step1: download and install python at https://www.python.org/downloads/
+
+step2: download Shadow Script at https://github.com/twistcharlie/Shadow-Script.git
+
+step3: unzip Shadow-Script-master.zip
+
+step4: pull the folder Shadow-Script-master anywhere you'd like on your computer
+
+You now have Shadows Script on your computer.

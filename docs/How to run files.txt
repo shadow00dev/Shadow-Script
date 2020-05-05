@@ -1,0 +1,11 @@
+HOW TO RUN .ss FILES:
+
+step 1: open Shadow-Script-master
+
+step2: open main.py(in Shadow-Script-master)
+
+step 3: enter the directory of the file you want(for example Examples/)
+
+step 4: enter the name of the ss file(for example Calculator)
+
+now you should see the file that ss been run

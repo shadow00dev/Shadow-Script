@@ -1,4 +1,3 @@
-
 s.func-main():
 this is the variables for input
  s.var-num1 = float(input('<num1>'))

@@ -30,7 +30,7 @@ def main():
 		 OF.write(line.replace('s.while-','while '))
 	 if 's.plib-' in line:
 		 OF.write(line.replace('s.plib-','import '))
-	 if 's.plib.r-' in line:
+	 if 's.r.plib-' in line:
 		 OF.write(line[9:])
 
  #closes files
