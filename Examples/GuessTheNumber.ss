@@ -8,6 +8,7 @@ s.func-main():
 
   s.while-play == True:
    s.if-guess == hidden:
+    s.var-play = False
     s.show-("welldone")   
    s.elif-guess < hidden:
     s.show-("to low")
