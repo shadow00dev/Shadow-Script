@@ -1,6 +1,15 @@
 import os
 def main():
  #opens files
+ openshell = input('<<Would you like to use SS shell? y/n>>')
+ if openshell == 'y':
+   exec(open("shellMain.py").read())
+ makefile = input('<<Would you like to make a file? y/n>>')
+ if makefile == 'y':
+   name = input('<<What would you like to name your file?>>')
+   f= open(name + ".ss","w+")
+   f.close()
+   main()
  directory = input('<<directory>>')
  IF_input = input('<<name of ss file>>') + '.ss'
  print('the shadow script file', IF_input, 'has now be opened')
