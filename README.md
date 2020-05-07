@@ -5,9 +5,9 @@ A new programing language made in python
 
 # Links
 
-github = https://github.com/twistcharlie/Shadow-Script
+github = https://github.com/dark00shadow/Shadow-Script
 
-wiki(aka docs) = https://github.com/twistcharlie/Shadow-Script/wiki
+wiki(aka docs) = https://github.com/dark00shadow/Shadow-Script/wiki
 
 
 # Credits
