@@ -34,6 +34,8 @@ while 1:
    x = x.replace('s.skip-','pass ')
   if 's.replace-' in x:
    x = x.replace('s.return-','return ')
+  if 'quit' in x:
+	  x = x.replace('quit', 'exec(open("main.py").read())')
  replace1()
  v += x
  v += '\n'

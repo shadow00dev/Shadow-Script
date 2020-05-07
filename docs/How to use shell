@@ -9,3 +9,5 @@ when you see 'want to have output yet? y/n>>'
 step2: if you need to write another command then type n if you want to test then press y
 
 look at your result
+
+btw type quit to exit shell
