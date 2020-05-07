@@ -1,0 +1,33 @@
+HOW TO USE MAIN.PY
+
+when you first open main.py:
+
+the first option you get is:
+<<Would you like to use SS shell? y/n>>
+
+this means would you want to use the shell that comes with shadow script and if you choose y
+it opens the shell if you press n then you get
+
+the second option you get is:
+<<Would you like to make a file? y/n>>
+
+this means would you like to make a shadow script file if y then you get
+
+the second part of option two:
+<<What would you like to name your file?>>
+
+this is what u want to name the ss file
+
+if you press n in the second option you get:
+
+<<directory>>
+
+this is about where is the ss file in (for example: C:\Users\(user)\OneDrive\Desktop\(name)/)
+
+then you get:
+
+<<name of ss file>>
+
+this is asking you for what is the name of the ss file inside of the directory you chose 
+
+then you get output for the ss file :)
