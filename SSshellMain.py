@@ -1,6 +1,6 @@
 v = ""
 while 1:
- oopen = open('shell.py', 'w')
+ oopen = open('SSshell.py', 'w')
 
  x = input('>>> ')
 
@@ -35,11 +35,10 @@ while 1:
   if 's.replace-' in x:
    x = x.replace('s.return-','return ')
  replace1()
- print(x)
  v += x
  v += '\n'
  oopen.write(v)
  output = input('want to have output yet? y/n>>')
  if output == 'y':
   oopen.close()
- exec(open('shell.py', 'r').read())
+ exec(open('SSshell.py', 'r').read())

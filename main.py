@@ -3,7 +3,10 @@ def main():
  #opens files
  openshell = input('<<Would you like to use SS shell? y/n>>')
  if openshell == 'y':
-   exec(open("shellMain.py").read())
+   exec(open('SSshellMain.py').read())
+ openSS = input('<<would you like to open the SSEditor? y/n>>')
+ if openSS == 'y': 
+	 exec(open('SSeditor/SSeditorMain.py').read())
  makefile = input('<<Would you like to make a file? y/n>>')
  if makefile == 'y':
    name = input('<<What would you like to name your file?>>')
