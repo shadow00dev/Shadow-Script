@@ -26,7 +26,7 @@ What is s.elif-? s.elif- can be used for if statements.
 
 Example: s.if-hi == 'hello world': 
 	              s.show('hi')
-	              s.elif-hi == 'hello'
+	 s.elif-hi == 'hello':
 	                s.show('hello.....')
 
 3.75. s.else:
@@ -35,7 +35,7 @@ what is s.else:? s.else: can be used for if statements.
 
 Example: s.if-hi == 'hello world': 
 	              s.show('hi')
-	              s.else:
+	 s.else:
 	                s.show('hello.....')
 
 4. s.func- 
